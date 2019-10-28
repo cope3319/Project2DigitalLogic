@@ -18,7 +18,7 @@ wire [7:0]monthSeg; //7-seg display binary represntation for the month, HEX2
 //This is kinda how were going to want to use monthDayCalc.v, but definetely change it to make it work for you
 always @*
 begin
-    monthDayCalc monthDayCalc(.data(numTotal),.month(HEX2),.day1(day1),.day2(day2);
+    monthDayCalc monthDayCalc(.data(numTotal),.month(HEX2),.day1(day1),.day2(day2));
     dualSevenSeg dualSevenSeg(.data1(day2),.data2(day1),.display2(HEX1),.display1(HEX0));
 end
 
