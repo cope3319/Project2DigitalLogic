@@ -29,7 +29,11 @@ begin
    else
     dayData = data;         //1 - January
 end
-
+always @*
+begin
+    day2 = (dayData%10); //rightmost bit
+    day1 = (dayData/10); //overflow left bit
+end
 
 
 endmodule
