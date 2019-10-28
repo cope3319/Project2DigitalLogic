@@ -22,4 +22,5 @@ begin
     dualSevenSeg dualSevenSeg(.data1(day2),.data2(day1),.display2(HEX1),.display1(HEX0));
 end
 
+
 endmodule
