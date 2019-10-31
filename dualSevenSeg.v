@@ -6,14 +6,14 @@ output [7:0] display1;
 output [7:0] display2;
 reg [7:0]display1;
 reg [7:0]display2;
-always @*
+/*always @*
 begin
 casex (data[7:0])
 4'b0xxx : sign = 8'b11111111;//blank
 4'b1xxx : sign = 8'b10111111;//negative
 endcase
 end
-always @* //right-most digit, display1
+*/always @* //right-most digit, display1
 begin
 casex (data1[3:0])
 4'b0000 : display1 = 8'b11000000; //0
@@ -31,7 +31,7 @@ end
 always @*
 begin
 casex (data2[3:0])
-4'b0000 : display2 = 8'b11000000; //0
+4'b0000 : display2 = 8'b11111111; //blank
 4'b0001 : display2 = 8'b11111001; //1
 4'b0010 : display2 = 8'b10100100; //2
 4'b0011 : display2 = 8'b10110000; //3
