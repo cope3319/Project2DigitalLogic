@@ -11,26 +11,26 @@ reg [23:0] counter;
 //(clock_divider #(clock_divisor = 1);//look up parameter verilog
 always @(posedge clk)
 begin
-if(KEY[1] == 1'b1)
-begin
-if(counter == clock_divisor1 - 1)
-begin
-counter <= 0;
-clock_out <= ~clock_out;
-end
-else
-counter <= counter + 1;
-end
-else
-begin
-if(counter == clock_divisor2 - 1)
-begin
-counter <= 0;
-clock_out <= ~clock_out;
-end
-else
-counter <= counter + 1;
-end
+    if(KEY[1] == 1'b1)
+    begin
+        if(counter == clock_divisor1 - 1)
+        begin
+            counter <= 0;
+            clock_out <= ~clock_out;
+        end
+        else
+            counter <= counter + 1;
+    end
+    else
+    begin
+        if(counter == clock_divisor2 - 1)
+        begin
+            counter <= 0;
+            clock_out <= ~clock_out;
+        end
+        else
+            counter <= counter + 1;
+    end
 end
 
 

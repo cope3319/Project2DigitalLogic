@@ -15,7 +15,7 @@ output [7:0] HEX5; //Digit 1
 output [1:0] LEDR;
 
 assign HEX3[7:0] = 8'b11111111; // Make HEX3 blank
-//count      reg [6:0]numTotal; //This is the number that is currently being displayed, like 99
+//count   
 wire[3:0]day1; //This is the HEX1 number representation
 wire[3:0]day2; //This is the HEX0 number representation
 wire[3:0]right;
@@ -27,8 +27,8 @@ reg [1:0]LEDR = 2'b01;
 reg reset_n;
 always @(negedge KEY[0])
 begin
-reset_n <= ~reset_n;
-LEDR[0] = reset_n;
+    reset_n <= ~reset_n;
+    LEDR[0] = reset_n;
 end
 
 
@@ -42,54 +42,51 @@ reg [3:0]mod10_counter2;
 //Day1
 always @(posedge clk_out or negedge reset_n)
 begin
-if(reset_n == 0)
-begin
-mod10_counter1 <= 1; // start at 1
-count <= 1; //count 1 - 99
-end
-else 
-begin
-LEDR[1] <= ~LEDR[1];
-if(count == 99)
-begin
-mod10_counter1 <= 1;
-count <= 1;
-end
-else 
-if (mod10_counter1 != 9)
-begin
-mod10_counter1 <= mod10_counter1 + 1;
-count <= count + 1;
-end
-else
-begin
-mod10_counter1 <= 0;
-count <= count + 1;
-end
-end
+    if(reset_n == 0)
+    begin
+        mod10_counter1 <= 1; // start at 1
+        count <= 1; //count 1 - 99
+    end
+    else 
+    begin
+        LEDR[1] <= ~LEDR[1];
+        if(count == 99)
+        begin
+        mod10_counter1 <= 1;
+        count <= 1;
+        end
+        else 
+        if (mod10_counter1 != 9)
+        begin
+            mod10_counter1 <= mod10_counter1 + 1;
+            count <= count + 1;
+        end
+        else
+        begin
+            mod10_counter1 <= 0;
+            count <= count + 1;
+        end
+    end
 end
 //Day2
 always @(posedge clk_out or negedge reset_n)
 begin
-if(reset_n == 0)
-mod10_counter2 <= 0;
-else if(mod10_counter1 == 9)
-begin
-if (/*mod10_counter2*/count != 100)
-mod10_counter2 <= mod10_counter2 + 1;
-else
-begin
-mod10_counter2 <= 0;
-//count = 1;
-end
-end
+    if(reset_n == 0)
+        mod10_counter2 <= 0;
+    else if(mod10_counter1 == 9)
+    begin
+        if (/*mod10_counter2*/count != 100)
+            mod10_counter2 <= mod10_counter2 + 1;
+        else
+        begin
+            mod10_counter2 <= 0;
+            //count = 1;
+        end
+    end
 end
 // end clock setup
 
-
-
-//This is kinda how were going to want to use monthDayCalc.v, but definetely change it to make it work for you
-
+// printing to 7-segment displays
 monthDayCalc monthDayCalc(.data(count),.month(HEX2),.day1(day1),.day2(day2),.SW(SW[9:8]));
 dualSevenSeg dualSevenSegMD(.data1(day2),.data2(day1),.display2(HEX1),.display1(HEX0));
 counted counted(.count(count),.left(left),.right(right));
