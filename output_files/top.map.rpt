@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Thu Oct 31 16:14:14 2019
+Sat Nov 02 12:40:47 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 31 16:14:14 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 02 12:40:47 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; top                                         ;
 ; Top-level Entity Name              ; top                                         ;
@@ -170,51 +170,52 @@ refer to the applicable agreement for further details.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processors 3-4         ;   0.1%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                       ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                   ; Library ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
-; top.v                            ; yes             ; User Verilog HDL File        ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v                      ;         ;
-; monthDayCalc.v                   ; yes             ; User Verilog HDL File        ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v             ;         ;
-; dualSevenSeg.v                   ; yes             ; User Verilog HDL File        ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v             ;         ;
-; clock_divider.v                  ; yes             ; User Verilog HDL File        ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/clock_divider.v            ;         ;
-; counted.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v                  ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf          ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc         ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc     ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc          ;         ;
-; db/lpm_divide_ekl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_ekl.tdf      ;         ;
-; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_dkh.tdf ;         ;
-; db/alt_u_div_4fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_4fe.tdf       ;         ;
-; db/add_sub_t3c.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/add_sub_t3c.tdf         ;         ;
-; db/add_sub_u3c.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/add_sub_u3c.tdf         ;         ;
-; db/lpm_divide_dkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_dkl.tdf      ;         ;
-; db/sign_div_unsign_ckh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_ckh.tdf ;         ;
-; db/alt_u_div_2fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_2fe.tdf       ;         ;
-; db/lpm_divide_fkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_fkl.tdf      ;         ;
-; db/sign_div_unsign_ekh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_ekh.tdf ;         ;
-; db/alt_u_div_1fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_1fe.tdf       ;         ;
-; db/lpm_divide_ckl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_ckl.tdf      ;         ;
-; db/sign_div_unsign_bkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_bkh.tdf ;         ;
-; db/alt_u_div_0fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf       ;         ;
-; db/lpm_divide_9sl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_9sl.tdf      ;         ;
-; db/lpm_divide_bkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_bkl.tdf      ;         ;
-; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_akh.tdf ;         ;
-; db/alt_u_div_uee.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf       ;         ;
-; db/lpm_divide_8sl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_8sl.tdf      ;         ;
-+----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                             ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------+---------+
+; top.v                            ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v                      ;         ;
+; monthDayCalc.v                   ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v             ;         ;
+; dualSevenSeg.v                   ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v             ;         ;
+; clock_divider.v                  ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v            ;         ;
+; counted.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v                  ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/lpm_divide.tdf                                                ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/abs_divider.inc                                               ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/sign_div_unsign.inc                                           ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/aglobal181.inc                                                ;         ;
+; db/lpm_divide_ekl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_ekl.tdf      ;         ;
+; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_dkh.tdf ;         ;
+; db/alt_u_div_4fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_4fe.tdf       ;         ;
+; db/add_sub_t3c.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/add_sub_t3c.tdf         ;         ;
+; db/add_sub_u3c.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/add_sub_u3c.tdf         ;         ;
+; db/lpm_divide_dkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_dkl.tdf      ;         ;
+; db/sign_div_unsign_ckh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_ckh.tdf ;         ;
+; db/alt_u_div_2fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_2fe.tdf       ;         ;
+; db/lpm_divide_fkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_fkl.tdf      ;         ;
+; db/sign_div_unsign_ekh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_ekh.tdf ;         ;
+; db/alt_u_div_1fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_1fe.tdf       ;         ;
+; db/lpm_divide_ckl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_ckl.tdf      ;         ;
+; db/sign_div_unsign_bkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_bkh.tdf ;         ;
+; db/alt_u_div_0fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf       ;         ;
+; db/lpm_divide_9sl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_9sl.tdf      ;         ;
+; db/lpm_divide_bkl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_bkl.tdf      ;         ;
+; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_akh.tdf ;         ;
+; db/alt_u_div_uee.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf       ;         ;
+; db/lpm_divide_8sl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_8sl.tdf      ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -652,7 +653,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -662,234 +663,234 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 31 16:13:51 2019
+    Info: Processing started: Sat Nov 02 12:40:19 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project2 -c top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file top.v
-    Info (12023): Found entity 1: top File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 1
+    Info (12023): Found entity 1: top File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file monthdaycalc.v
-    Info (12023): Found entity 1: monthDayCalc File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 1
+    Info (12023): Found entity 1: monthDayCalc File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file dualsevenseg.v
-    Info (12023): Found entity 1: dualSevenSeg File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 1
+    Info (12023): Found entity 1: dualSevenSeg File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file clock_divider.v
-    Info (12023): Found entity 1: clock_divider File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/clock_divider.v Line: 1
+    Info (12023): Found entity 1: clock_divider File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Warning (10646): Verilog HDL Event Control warning at top.v(43): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 43
-Warning (10230): Verilog HDL assignment warning at top.v(61): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 61
-Warning (10230): Verilog HDL assignment warning at top.v(62): truncated value with size 32 to match size of target (7) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 62
-Warning (10230): Verilog HDL assignment warning at top.v(67): truncated value with size 32 to match size of target (7) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 67
-Warning (10646): Verilog HDL Event Control warning at top.v(72): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 72
-Warning (10230): Verilog HDL assignment warning at top.v(79): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 79
-Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:clock_divide" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 36
-Warning (10646): Verilog HDL Event Control warning at clock_divider.v(12): posedge or negedge of vector "clk" depends solely on its least-significant bit File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/clock_divider.v Line: 12
-Warning (10230): Verilog HDL assignment warning at clock_divider.v(22): truncated value with size 32 to match size of target (24) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/clock_divider.v Line: 22
-Warning (10230): Verilog HDL assignment warning at clock_divider.v(32): truncated value with size 32 to match size of target (24) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/clock_divider.v Line: 32
-Info (12128): Elaborating entity "monthDayCalc" for hierarchy "monthDayCalc:monthDayCalc" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 93
-Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(71): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 71
-Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(72): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 72
-Info (12128): Elaborating entity "dualSevenSeg" for hierarchy "dualSevenSeg:dualSevenSegMD" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 94
-Warning (10270): Verilog HDL Case Statement warning at dualSevenSeg.v(18): incomplete case statement has no default case item File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at dualSevenSeg.v(18): inferring latch(es) for variable "display1", which holds its previous value in one or more paths through the always construct File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Warning (10270): Verilog HDL Case Statement warning at dualSevenSeg.v(33): incomplete case statement has no default case item File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Warning (10240): Verilog HDL Always Construct warning at dualSevenSeg.v(33): inferring latch(es) for variable "display2", which holds its previous value in one or more paths through the always construct File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[0]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[1]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[2]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[3]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[4]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[5]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[6]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display2[7]" at dualSevenSeg.v(33) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-Info (10041): Inferred latch for "display1[0]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[1]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[2]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[3]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[4]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[5]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[6]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-Info (10041): Inferred latch for "display1[7]" at dualSevenSeg.v(18) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
+Warning (10646): Verilog HDL Event Control warning at top.v(43): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 43
+Warning (10230): Verilog HDL assignment warning at top.v(61): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 61
+Warning (10230): Verilog HDL assignment warning at top.v(62): truncated value with size 32 to match size of target (7) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 62
+Warning (10230): Verilog HDL assignment warning at top.v(67): truncated value with size 32 to match size of target (7) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 67
+Warning (10646): Verilog HDL Event Control warning at top.v(72): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 72
+Warning (10230): Verilog HDL assignment warning at top.v(79): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 79
+Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:clock_divide" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 36
+Warning (10646): Verilog HDL Event Control warning at clock_divider.v(12): posedge or negedge of vector "clk" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 12
+Warning (10230): Verilog HDL assignment warning at clock_divider.v(22): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 22
+Warning (10230): Verilog HDL assignment warning at clock_divider.v(32): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 32
+Info (12128): Elaborating entity "monthDayCalc" for hierarchy "monthDayCalc:monthDayCalc" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 90
+Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(71): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 71
+Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(72): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 72
+Info (12128): Elaborating entity "dualSevenSeg" for hierarchy "dualSevenSeg:dualSevenSegMD" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 91
+Warning (10270): Verilog HDL Case Statement warning at dualSevenSeg.v(12): incomplete case statement has no default case item File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Warning (10240): Verilog HDL Always Construct warning at dualSevenSeg.v(12): inferring latch(es) for variable "display1", which holds its previous value in one or more paths through the always construct File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Warning (10270): Verilog HDL Case Statement warning at dualSevenSeg.v(27): incomplete case statement has no default case item File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Warning (10240): Verilog HDL Always Construct warning at dualSevenSeg.v(27): inferring latch(es) for variable "display2", which holds its previous value in one or more paths through the always construct File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[0]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[1]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[2]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[3]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[4]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[5]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[6]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display2[7]" at dualSevenSeg.v(27) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+Info (10041): Inferred latch for "display1[0]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[1]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[2]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[3]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[4]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[5]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[6]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+Info (10041): Inferred latch for "display1[7]" at dualSevenSeg.v(12) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
 Warning (12125): Using design file counted.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: counted File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 1
-Info (12128): Elaborating entity "counted" for hierarchy "counted:counted" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 95
-Warning (10230): Verilog HDL assignment warning at counted.v(9): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 9
-Warning (10230): Verilog HDL assignment warning at counted.v(10): truncated value with size 32 to match size of target (4) File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 10
+    Info (12023): Found entity 1: counted File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 1
+Info (12128): Elaborating entity "counted" for hierarchy "counted:counted" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 92
+Warning (10230): Verilog HDL assignment warning at counted.v(9): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 9
+Warning (10230): Verilog HDL assignment warning at counted.v(10): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 10
 Info (278001): Inferred 9 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod2" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 59
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 48
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod3" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 61
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod1" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 50
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod4" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 63
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod5" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 71
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Div0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 72
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "counted:counted|Mod0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 9
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "counted:counted|Div0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 10
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod2" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 59
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod2" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 59
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod2" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 59
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 48
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod3" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 61
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod1" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 50
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod4" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 63
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Mod5" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 71
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "monthDayCalc:monthDayCalc|Div0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 72
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "counted:counted|Mod0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 9
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "counted:counted|Div0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 10
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod2" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 59
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod2" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 59
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ekl.tdf
-    Info (12023): Found entity 1: lpm_divide_ekl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_ekl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_ekl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_ekl.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_dkh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_dkh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_4fe.tdf
-    Info (12023): Found entity 1: alt_u_div_4fe File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_4fe.tdf Line: 26
+    Info (12023): Found entity 1: alt_u_div_4fe File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_4fe.tdf Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_t3c.tdf
-    Info (12023): Found entity 1: add_sub_t3c File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/add_sub_t3c.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_t3c File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/add_sub_t3c.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_u3c.tdf
-    Info (12023): Found entity 1: add_sub_u3c File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/add_sub_u3c.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 48
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod0" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 48
+    Info (12023): Found entity 1: add_sub_u3c File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/add_sub_u3c.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 48
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod0" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 48
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod3" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 61
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod3" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 61
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod3" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 61
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod3" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 61
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_dkl.tdf
-    Info (12023): Found entity 1: lpm_divide_dkl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_dkl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_dkl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_dkl.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_ckh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_ckh File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_ckh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_ckh File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_ckh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_2fe.tdf
-    Info (12023): Found entity 1: alt_u_div_2fe File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_2fe.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod1" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 50
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod1" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 50
+    Info (12023): Found entity 1: alt_u_div_2fe File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_2fe.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod1" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 50
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod1" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 50
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod4" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 63
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod4" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 63
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod4" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 63
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod4" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 63
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_fkl.tdf
-    Info (12023): Found entity 1: lpm_divide_fkl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_fkl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_fkl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_fkl.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_ekh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_ekh File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_ekh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_ekh File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_ekh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_1fe.tdf
-    Info (12023): Found entity 1: alt_u_div_1fe File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_1fe.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod5" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 71
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod5" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 71
+    Info (12023): Found entity 1: alt_u_div_1fe File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_1fe.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Mod5" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 71
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Mod5" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 71
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ckl.tdf
-    Info (12023): Found entity 1: lpm_divide_ckl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_ckl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_ckl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_ckl.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_bkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_bkh File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_bkh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_bkh File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_bkh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_0fe.tdf
-    Info (12023): Found entity 1: alt_u_div_0fe File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Div0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 72
-Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Div0" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/monthDayCalc.v Line: 72
+    Info (12023): Found entity 1: alt_u_div_0fe File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "monthDayCalc:monthDayCalc|lpm_divide:Div0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 72
+Info (12133): Instantiated megafunction "monthDayCalc:monthDayCalc|lpm_divide:Div0" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 72
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_9sl.tdf
-    Info (12023): Found entity 1: lpm_divide_9sl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_9sl.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "counted:counted|lpm_divide:Mod0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 9
-Info (12133): Instantiated megafunction "counted:counted|lpm_divide:Mod0" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 9
+    Info (12023): Found entity 1: lpm_divide_9sl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_9sl.tdf Line: 24
+Info (12130): Elaborated megafunction instantiation "counted:counted|lpm_divide:Mod0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 9
+Info (12133): Instantiated megafunction "counted:counted|lpm_divide:Mod0" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 9
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_bkl.tdf
-    Info (12023): Found entity 1: lpm_divide_bkl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_bkl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_bkl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_bkl.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/sign_div_unsign_akh.tdf Line: 24
+    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_akh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_uee.tdf
-    Info (12023): Found entity 1: alt_u_div_uee File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "counted:counted|lpm_divide:Div0" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 10
-Info (12133): Instantiated megafunction "counted:counted|lpm_divide:Div0" with the following parameter: File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/counted.v Line: 10
+    Info (12023): Found entity 1: alt_u_div_uee File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "counted:counted|lpm_divide:Div0" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 10
+Info (12133): Instantiated megafunction "counted:counted|lpm_divide:Div0" with the following parameter: File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v Line: 10
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_8sl.tdf
-    Info (12023): Found entity 1: lpm_divide_8sl File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/lpm_divide_8sl.tdf Line: 24
+    Info (12023): Found entity 1: lpm_divide_8sl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_8sl.tdf Line: 24
 Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[0] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[1] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[2] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[3] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[4] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[5] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[6] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[0] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[1] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[2] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[3] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[4] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[5] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[6] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[0] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[1] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[2] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[3] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[4] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[5] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[6] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[0] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[1] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[2] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_4_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 46
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[3] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[4] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[5] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[6] has unsafe behavior File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/dualSevenSeg.v Line: 33
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
-Info (13000): Registers with preset signals will power-up high File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[0] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[1] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[2] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[3] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[4] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[5] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[6] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[0] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[1] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[2] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[3] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[4] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[5] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display2[6] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal monthDayCalc:monthDayCalc|lpm_divide:Div0|lpm_divide_9sl:auto_generated|sign_div_unsign_bkh:divider|alt_u_div_0fe:divider|add_sub_6_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_0fe.tdf Line: 56
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[0] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[1] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[2] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[3] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[4] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[5] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display1[6] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal count[1] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[0] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[1] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[2] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_4_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 46
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[3] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[4] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[5] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Warning (13012): Latch dualSevenSeg:dualSevenSegCNT|display2[6] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counted:counted|lpm_divide:Div0|lpm_divide_8sl:auto_generated|sign_div_unsign_akh:divider|alt_u_div_uee:divider|add_sub_5_result_int[5]~synth File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_uee.tdf Line: 51
+Info (13000): Registers with preset signals will power-up high File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 9
-    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 10
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 11
-    Warning (13410): Pin "HEX2[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 11
-    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 12
-    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 13
-    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 14
+    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 9
+    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 10
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 11
+    Warning (13410): Pin "HEX2[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 11
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 12
+    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 13
+    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 14
 Info (286030): Timing-Driven Synthesis is running
 Warning (20013): Ignored 73 assignments for entity "Complete" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CLK_10 -entity Complete was ignored
@@ -965,25 +966,25 @@ Warning (20013): Ignored 73 assignments for entity "Complete" -- entity does not
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[7] -entity Complete was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[8] -entity Complete was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[9] -entity Complete was ignored
-Info (144001): Generated suppressed messages file C:/Users/USER/Documents/GitHub/Project2DigitalLogic/output_files/top.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/output_files/top.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/USER/Documents/GitHub/Project2DigitalLogic/top.v Line: 7
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 7
 Info (21057): Implemented 539 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 50 output pins
     Info (21061): Implemented 484 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 167 warnings
-    Info: Peak virtual memory: 4771 megabytes
-    Info: Processing ended: Thu Oct 31 16:14:14 2019
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Peak virtual memory: 4786 megabytes
+    Info: Processing ended: Sat Nov 02 12:40:47 2019
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/USER/Documents/GitHub/Project2DigitalLogic/output_files/top.map.smsg.
+The suppressed messages can be found in C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/output_files/top.map.smsg.
 
 

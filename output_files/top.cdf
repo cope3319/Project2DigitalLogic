@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484) Path("C:/Users/USER/Documents/GitHub/Project2DigitalLogic/output_files/") File("top.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484) Path("C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/output_files/") File("top.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
