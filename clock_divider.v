@@ -1,4 +1,4 @@
-module clock_divider #(parameter clock_divisor1 = 1, parameter clock_divisor2 = 1_000_000) (clk, /*reset_n,*/clock_out, KEY);
+module clock_divider #(parameter clock_divisor1 = 5, parameter clock_divisor2 = 1_000_000) (clk, /*reset_n,*/clock_out, KEY);
 //parameter clock_divisor = 5_000_000; //move to top in test pass 1
 input [1:0]KEY;
 input clk;

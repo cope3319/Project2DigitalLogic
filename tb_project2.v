@@ -3,7 +3,7 @@
  ~iverilog tb_project2.v top.v monthDayCalc.v dualSevenSeg.v clock_divider.v counted.v
  ~vvp a.out > out.txt
  */
-`timescale 1 s / 100 ns
+`timescale 1 ms / 100 ps
 
 module tb();
 
@@ -25,7 +25,7 @@ reg [3:0] unusedMonthDig;
 reg [3:0] digit1digit;
 reg [3:0] digit2digit;
 
-always #1 ADC_CLK_10 = ~ADC_CLK_10;
+always #5 ADC_CLK_10 = ~ADC_CLK_10;
 
 top DUT(
   .KEY(KEY),
@@ -49,13 +49,13 @@ begin
     SW[9:8] = 2'b00;
     KEY[1:0] = 2'b11;
     $display($time, " SW[9] low: %b, no buttons KEY[1:0]= %b",SW[9],KEY[1:0]);
-    #1
+    #1000
     KEY[1:0] = 2'b10;
-    #1
+    #1000
     $display($time, " Pressing reset to begin, KEY[0] = %b, HEX3 Cleared: %b",KEY[0],HEX3[7:0]);
     repeat(100) begin
         if($time<3) KEY[1:0] = 2'b11;
-        #1
+        #1000
         $display($time, " Left Digit: HEX5 = %b, Right Digit: HEX4 = %b", HEX5[7:0], HEX4[7:0]);
         $display($time, " Left Day: HEX1 = %b, Right Day: HEX0 = %b, Month: HEX2 = %b",HEX1[7:0],HEX0[7:0],HEX2[7:0]);
         $display($time," Converted to digits: %d %d - %d %d - %d %d",
