@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Sat Nov 02 12:40:47 2019
+Sun Nov 03 19:56:03 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -27,13 +27,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  19. Parameter Settings for Inferred Entity Instance: monthDayCalc:monthDayCalc|lpm_divide:Div0
  20. Parameter Settings for Inferred Entity Instance: counted:counted|lpm_divide:Mod0
  21. Parameter Settings for Inferred Entity Instance: counted:counted|lpm_divide:Div0
- 22. Port Connectivity Checks: "dualSevenSeg:dualSevenSegCNT"
- 23. Port Connectivity Checks: "dualSevenSeg:dualSevenSegMD"
- 24. Port Connectivity Checks: "clock_divider:clock_divide"
- 25. Post-Synthesis Netlist Statistics for Top Partition
- 26. Elapsed Time Per Partition
- 27. Analysis & Synthesis Messages
- 28. Analysis & Synthesis Suppressed Messages
+ 22. Port Connectivity Checks: "clock_divider:clock_divide"
+ 23. Post-Synthesis Netlist Statistics for Top Partition
+ 24. Elapsed Time Per Partition
+ 25. Analysis & Synthesis Messages
+ 26. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -59,7 +57,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Nov 02 12:40:47 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Nov 03 19:56:03 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; top                                         ;
 ; Top-level Entity Name              ; top                                         ;
@@ -169,16 +167,16 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.02        ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.2%      ;
-;     Processors 3-4         ;   0.1%      ;
+;     Processors 3-12        ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -192,10 +190,10 @@ refer to the applicable agreement for further details.
 ; dualSevenSeg.v                   ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v             ;         ;
 ; clock_divider.v                  ; yes             ; User Verilog HDL File        ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v            ;         ;
 ; counted.v                        ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/counted.v                  ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/lpm_divide.tdf                                                ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/abs_divider.inc                                               ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/sign_div_unsign.inc                                           ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                 ; d:/quartus/quartus/libraries/megafunctions/aglobal181.inc                                                ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/lpm_divide.tdf                                                ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/abs_divider.inc                                               ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/sign_div_unsign.inc                                           ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; e:/quartus/quartus/libraries/megafunctions/aglobal181.inc                                                ;         ;
 ; db/lpm_divide_ekl.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_ekl.tdf      ;         ;
 ; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/sign_div_unsign_dkh.tdf ;         ;
 ; db/alt_u_div_4fe.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/alt_u_div_4fe.tdf       ;         ;
@@ -594,32 +592,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "dualSevenSeg:dualSevenSegCNT"                                                                                                                 ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                       ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; data1 ; Input ; Warning  ; Input port expression (4 bits) is smaller than the input port (8 bits) it drives.  Extra input bit(s) "data1[7..4]" will be connected to GND. ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "dualSevenSeg:dualSevenSegMD"                                                                                                                  ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port  ; Type  ; Severity ; Details                                                                                                                                       ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; data1 ; Input ; Warning  ; Input port expression (4 bits) is smaller than the input port (8 bits) it drives.  Extra input bit(s) "data1[7..4]" will be connected to GND. ;
-+-------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "clock_divider:clock_divide"                                                                                                                               ;
-+------------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port             ; Type   ; Severity ; Details                                                                                                                                       ;
-+------------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; clk              ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (24 bits) it drives.  Extra input bit(s) "clk[23..1]" will be connected to GND. ;
-; clock_out[22..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                           ;
-+------------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "clock_divider:clock_divide"                                                                     ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; clock_out[22..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -653,7 +632,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -663,10 +642,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Nov 02 12:40:19 2019
+    Info: Processing started: Sun Nov 03 19:55:53 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project2 -c top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file top.v
     Info (12023): Found entity 1: top File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file monthdaycalc.v
@@ -683,7 +662,6 @@ Warning (10230): Verilog HDL assignment warning at top.v(67): truncated value wi
 Warning (10646): Verilog HDL Event Control warning at top.v(72): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 72
 Warning (10230): Verilog HDL assignment warning at top.v(79): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 79
 Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:clock_divide" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 36
-Warning (10646): Verilog HDL Event Control warning at clock_divider.v(12): posedge or negedge of vector "clk" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 12
 Warning (10230): Verilog HDL assignment warning at clock_divider.v(22): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 22
 Warning (10230): Verilog HDL assignment warning at clock_divider.v(32): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 32
 Info (12128): Elaborating entity "monthDayCalc" for hierarchy "monthDayCalc:monthDayCalc" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 90
@@ -817,7 +795,6 @@ Info (12133): Instantiated megafunction "counted:counted|lpm_divide:Div0" with t
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_8sl.tdf
     Info (12023): Found entity 1: lpm_divide_8sl File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/db/lpm_divide_8sl.tdf Line: 24
-Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[0] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
     Warning (13013): Ports D and ENA on the latch are fed by the same signal count[6] File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
 Warning (13012): Latch dualSevenSeg:dualSevenSegMD|display1[1] has unsafe behavior File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/dualSevenSeg.v Line: 12
@@ -975,11 +952,11 @@ Info (21057): Implemented 539 device resources after synthesis - the final resou
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 50 output pins
     Info (21061): Implemented 484 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 167 warnings
-    Info: Peak virtual memory: 4786 megabytes
-    Info: Processing ended: Sat Nov 02 12:40:47 2019
-    Info: Elapsed time: 00:00:28
-    Info: Total CPU time (on all processors): 00:00:28
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 165 warnings
+    Info: Peak virtual memory: 4831 megabytes
+    Info: Processing ended: Sun Nov 03 19:56:03 2019
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +------------------------------------------+
