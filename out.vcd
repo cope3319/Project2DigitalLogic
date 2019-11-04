@@ -1,0 +1,141 @@
+$date
+	Sun Nov 03 19:22:44 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb $end
+$var wire 8 ! HEX3 [7:0] $end
+$var wire 2 " LEDR [1:0] $end
+$var wire 8 # HEX5 [7:0] $end
+$var wire 8 $ HEX4 [7:0] $end
+$var wire 8 % HEX2 [7:0] $end
+$var wire 8 & HEX1 [7:0] $end
+$var wire 8 ' HEX0 [7:0] $end
+$var reg 2 ( KEY [1:0] $end
+$var reg 2 ) SW [9:8] $end
+$var reg 4 * day1digit [3:0] $end
+$var reg 4 + day2digit [3:0] $end
+$var reg 4 , digit1digit [3:0] $end
+$var reg 4 - digit2digit [3:0] $end
+$var reg 4 . monthDigit [3:0] $end
+$var reg 4 / unusedMonthDig [3:0] $end
+$scope module DUT $end
+$var wire 1 0 ADC_CLK_10 $end
+$var wire 8 1 HEX3 [7:0] $end
+$var wire 2 2 KEY [1:0] $end
+$var wire 2 3 SW [9:8] $end
+$var wire 4 4 right [3:0] $end
+$var wire 4 5 left [3:0] $end
+$var wire 4 6 day2 [3:0] $end
+$var wire 4 7 day1 [3:0] $end
+$var wire 23 8 clk_out [22:0] $end
+$var wire 8 9 HEX5 [7:0] $end
+$var wire 8 : HEX4 [7:0] $end
+$var wire 8 ; HEX2 [7:0] $end
+$var wire 8 < HEX1 [7:0] $end
+$var wire 8 = HEX0 [7:0] $end
+$var reg 2 > LEDR [1:0] $end
+$var reg 7 ? count [6:0] $end
+$var reg 4 @ mod10_counter1 [3:0] $end
+$var reg 4 A mod10_counter2 [3:0] $end
+$var reg 1 B reset_n $end
+$scope module clock_divide $end
+$var wire 2 C KEY [1:0] $end
+$var wire 1 0 clk $end
+$var reg 23 D clock_out [22:0] $end
+$var reg 24 E counter [23:0] $end
+$upscope $end
+$scope module counted $end
+$var wire 7 F count [6:0] $end
+$var reg 4 G left [3:0] $end
+$var reg 4 H right [3:0] $end
+$upscope $end
+$scope module dualSevenSegCNT $end
+$var wire 4 I data1 [3:0] $end
+$var wire 4 J data2 [3:0] $end
+$var reg 8 K display1 [7:0] $end
+$var reg 8 L display2 [7:0] $end
+$upscope $end
+$scope module dualSevenSegMD $end
+$var wire 4 M data2 [3:0] $end
+$var wire 4 N data1 [3:0] $end
+$var reg 8 O display1 [7:0] $end
+$var reg 8 P display2 [7:0] $end
+$upscope $end
+$scope module monthDayCalc $end
+$var wire 2 Q SW [9:8] $end
+$var wire 7 R data [6:0] $end
+$var reg 4 S day1 [3:0] $end
+$var reg 4 T day2 [3:0] $end
+$var reg 8 U dayData [7:0] $end
+$var reg 8 V month [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111001 V
+b0xxxxxxx U
+bx T
+bx S
+bx R
+b0 Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+b10 C
+xB
+bx A
+bx @
+bx ?
+b0x >
+bx =
+bx <
+b11111001 ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+b0 3
+b10 2
+b11111111 1
+z0
+bx /
+b1 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b10 (
+bx '
+bx &
+b11111001 %
+bx $
+bx #
+b0x "
+b11111111 !
+$end
+#10000
+b11 (
+b11 2
+b11 C
+#40000

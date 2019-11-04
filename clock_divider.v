@@ -1,7 +1,7 @@
 module clock_divider #(parameter clock_divisor1 = 5_000_000, parameter clock_divisor2 = 1_000_000) (clk,/* reset_n, */clock_out, KEY);
 //parameter clock_divisor = 5_000_000; //move to top in test pass 1
 input [1:0]KEY;
-input [23:0]clk;
+input clk;
 //input [0]reset_n;
 //input [0]clock_divider; //TB = 1 TOP = 5_000_000
 output [22:0]clock_out;

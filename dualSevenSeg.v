@@ -1,6 +1,6 @@
 module dualSevenSeg(data1,data2,display2,display1);
 //this module will print to two 7-segment display's at the same time.
-input [7:0]data1;
+input [3:0]data1;
 input [3:0]data2;
 output [7:0] display1;
 output [7:0] display2;
