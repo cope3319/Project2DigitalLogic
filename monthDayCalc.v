@@ -42,7 +42,7 @@ end
 
 always @* //Get the date of the month
 begin
-if(SW[9] == 1'b1)
+if(SW[9] == 1'b1) //leap year
 begin
    if(data>=7'd92)  
     dayData = (data % 7'd91); //4 - Aprl
