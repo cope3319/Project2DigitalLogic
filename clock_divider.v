@@ -1,16 +1,22 @@
-module clock_divider #(parameter clock_divisor1 = 5_000_000, parameter clock_divisor2 = 1_000_000) (clk,/* reset_n, */clock_out, KEY);
+module clock_divider #(parameter clock_divisor1 = 1, parameter clock_divisor2 = 1_000_000) (clk, /*reset_n,*/clock_out, KEY);
 //parameter clock_divisor = 5_000_000; //move to top in test pass 1
 input [1:0]KEY;
 input clk;
 //input [0]reset_n;
 //input [0]clock_divider; //TB = 1 TOP = 5_000_000
 output [22:0]clock_out;
-reg [22:0]clock_out;
-reg [23:0] counter;
+reg [22:0]clock_out = 0;
+reg [23:0]counter = 0;
 
-//(clock_divider #(clock_divisor = 1);//look up parameter verilog
-always @(posedge clk)
+
+//(clock_divider #(clock_divisor = 1); //look up parameter verilog
+always @(posedge clk or negedge clk)
 begin
+    /*if(KEY[0] == 1'b0)
+    begin
+        counter = 0;
+        clock_out = 0;
+    end*/
     if(KEY[1] == 1'b1)
     begin
         if(counter == clock_divisor1 - 1)

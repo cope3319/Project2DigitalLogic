@@ -24,7 +24,7 @@ wire [7:0]monthSeg; //7-seg display binary represntation for the month, HEX2
 reg [1:0]LEDR = 2'b01;
 
 //Latch the button
-reg reset_n;
+reg reset_n = 0;
 always @(negedge KEY[0])
 begin
     reset_n <= ~reset_n;

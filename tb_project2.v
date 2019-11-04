@@ -1,12 +1,13 @@
 /* USE:
  ~from directory project2digitallogic/
- ~iverilog tb_project2.v top.v segToDec.v monthDayCalc.v dualSevenSeg.v clock_divider.v counted.v
+ ~iverilog tb_project2.v top.v monthDayCalc.v dualSevenSeg.v clock_divider.v counted.v
  ~vvp a.out > out.txt
  */
-`timescale 1 s / 100 ms
+`timescale 1 s / 100 ns
 
 module tb();
 
+reg ADC_CLK_10;
 reg  [9:8] SW;
 reg  [1:0] KEY; //Buttons
 wire [7:0] HEX0; //Day2
@@ -24,9 +25,9 @@ reg [3:0] unusedMonthDig;
 reg [3:0] digit1digit;
 reg [3:0] digit2digit;
 
+always #1 ADC_CLK_10 = ~ADC_CLK_10;
 
 top DUT(
-  .SW(SW),
   .KEY(KEY),
   .HEX0(HEX0),
   .HEX1(HEX1),
@@ -34,7 +35,9 @@ top DUT(
   .HEX3(HEX3),
   .HEX4(HEX4),
   .HEX5(HEX5),
-  .LEDR(LEDR)
+  .ADC_CLK_10(ADC_CLK_10),
+  .LEDR(LEDR),
+  .SW(SW)  
 );
 
 initial
@@ -42,20 +45,20 @@ begin
     $dumpfile("out.vcd");
 	$dumpvars;
     $display($time, " << Starting Simulation >>");
+    ADC_CLK_10 = 1'b0;
     SW[9:8] = 2'b00;
-    KEY[1:0] = 2'b00;
-    $display($time, " SW[9] low: %b, no buttons KEY[1:0]= %b",SW[9],KEY[1:0]);
-    //KEY[1:0] = 2'b10;
-    #1
-    $display($time, " Pressing reset to begin, KEY[0] = %b, HEX3 Cleared: %b",KEY[0],HEX3[7:0]);
     KEY[1:0] = 2'b11;
+    $display($time, " SW[9] low: %b, no buttons KEY[1:0]= %b",SW[9],KEY[1:0]);
     #1
     KEY[1:0] = 2'b10;
-    repeat(10) begin
+    #1
+    $display($time, " Pressing reset to begin, KEY[0] = %b, HEX3 Cleared: %b",KEY[0],HEX3[7:0]);
+    repeat(100) begin
+        if($time<3) KEY[1:0] = 2'b11;
         #1
         $display($time, " Left Digit: HEX5 = %b, Right Digit: HEX4 = %b", HEX5[7:0], HEX4[7:0]);
         $display($time, " Left Day: HEX1 = %b, Right Day: HEX0 = %b, Month: HEX2 = %b",HEX1[7:0],HEX0[7:0],HEX2[7:0]);
-        $display($time, " Converted to digits: %d %d - %d %d - %d %d",
+        $display($time," Converted to digits: %d %d - %d %d - %d %d",
                    digit2digit[3:0],digit1digit[3:0],unusedMonthDig[3:0], monthDigit[3:0],day1digit[3:0],day2digit[3:0]);
     end
     
@@ -65,8 +68,8 @@ end
 
 initial
 begin
-      $monitor($time, " Buttons(KEY): %b, Day2(HEX0): %b, Day1(HEX1): %b, UnusedMonth(HEX3): %b, Month(HEX2): %b, Digit1(HEX4): %b, Digit2(HEX5): %b",
-                              KEY[1:0],      HEX0[7:0],      HEX1[7:0],               HEX3[7:0], HEX2[7:0],        HEX4[7:0],        HEX5[7:0]);
+      $monitor($time, " Buttons(KEY): %b, Day2(HEX0): %b, Day1(HEX1): %b, UnusedMonth(HEX3): %b, Month(HEX2): %b, Digit1(HEX4): %b, Digit2(HEX5): %b, Clk: %b",
+                              KEY[1:0],      HEX0[7:0],      HEX1[7:0],               HEX3[7:0], HEX2[7:0],        HEX4[7:0],        HEX5[7:0], ADC_CLK_10);
 end
 
 
@@ -119,6 +122,7 @@ begin
         8'b11111000 : unusedMonthDig = 4'b0111; //7
         8'b10000000 : unusedMonthDig = 4'b1000; //8
         8'b10010000 : unusedMonthDig = 4'b1001; //9
+        8'b11111111 : unusedMonthDig = 4'b0000; //0
     endcase
     casex(HEX4[7:0])
         8'b11000000 : digit1digit = 4'b0000; //0
@@ -145,6 +149,7 @@ begin
         8'b10010000 : digit2digit = 4'b1001; //9
     endcase
 end
+
 
 
 endmodule
