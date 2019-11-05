@@ -3,72 +3,72 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'count[1]'
-Slack : -40.336
-TNS   : -626.685
+Slack : -39.321
+TNS   : -630.820
 
 Type  : Slow 1200mV 85C Model Setup 'count[2]'
-Slack : -40.169
-TNS   : -703.248
+Slack : -39.256
+TNS   : -713.375
 
 Type  : Slow 1200mV 85C Model Setup 'SW[9]'
-Slack : -38.684
-TNS   : -479.802
+Slack : -38.090
+TNS   : -487.220
 
 Type  : Slow 1200mV 85C Model Setup 'ADC_CLK_10'
-Slack : -4.535
-TNS   : -54.193
+Slack : -4.349
+TNS   : -53.059
 
-Type  : Slow 1200mV 85C Model Setup 'clock_divider:clock_divide|clock_out[0]'
-Slack : -3.218
-TNS   : -15.716
+Type  : Slow 1200mV 85C Model Setup 'clock_divider:clock_divide|clock_out'
+Slack : -3.167
+TNS   : -16.106
 
 Type  : Slow 1200mV 85C Model Setup 'KEY[0]'
-Slack : -0.241
-TNS   : -0.241
+Slack : -0.225
+TNS   : -0.225
 
-Type  : Slow 1200mV 85C Model Hold 'clock_divider:clock_divide|clock_out[0]'
-Slack : 0.349
+Type  : Slow 1200mV 85C Model Hold 'clock_divider:clock_divide|clock_out'
+Slack : 0.330
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'KEY[0]'
-Slack : 0.482
+Slack : 0.473
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'ADC_CLK_10'
-Slack : 0.639
+Slack : 0.644
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'count[2]'
-Slack : 1.625
+Slack : 0.927
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'count[1]'
-Slack : 3.288
+Slack : 2.046
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'SW[9]'
-Slack : 4.240
+Slack : 4.017
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Recovery 'clock_divider:clock_divide|clock_out[0]'
-Slack : -2.541
-TNS   : -15.447
+Type  : Slow 1200mV 85C Model Recovery 'clock_divider:clock_divide|clock_out'
+Slack : -2.769
+TNS   : -16.855
 
-Type  : Slow 1200mV 85C Model Removal 'clock_divider:clock_divide|clock_out[0]'
-Slack : 1.514
+Type  : Slow 1200mV 85C Model Removal 'clock_divider:clock_divide|clock_out'
+Slack : 1.896
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count[2]'
-Slack : -15.923
-TNS   : -12853.055
+Slack : -15.346
+TNS   : -13049.417
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'count[1]'
-Slack : -14.433
-TNS   : -9645.304
+Slack : -14.696
+TNS   : -10939.256
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SW[9]'
-Slack : -11.761
-TNS   : -6335.856
+Slack : -10.543
+TNS   : -6004.696
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADC_CLK_10'
 Slack : -3.000
@@ -78,77 +78,77 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[0]'
 Slack : -3.000
 TNS   : -5.806
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out[0]'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out'
 Slack : -1.403
 TNS   : -11.224
 
 Type  : Slow 1200mV 0C Model Setup 'count[1]'
-Slack : -37.408
-TNS   : -580.264
+Slack : -36.397
+TNS   : -583.246
 
 Type  : Slow 1200mV 0C Model Setup 'count[2]'
-Slack : -37.275
-TNS   : -649.920
+Slack : -36.310
+TNS   : -658.167
 
 Type  : Slow 1200mV 0C Model Setup 'SW[9]'
-Slack : -35.944
-TNS   : -444.148
+Slack : -35.314
+TNS   : -450.695
 
 Type  : Slow 1200mV 0C Model Setup 'ADC_CLK_10'
-Slack : -4.068
-TNS   : -46.955
+Slack : -3.981
+TNS   : -46.029
 
-Type  : Slow 1200mV 0C Model Setup 'clock_divider:clock_divide|clock_out[0]'
-Slack : -2.862
-TNS   : -13.763
+Type  : Slow 1200mV 0C Model Setup 'clock_divider:clock_divide|clock_out'
+Slack : -2.852
+TNS   : -14.265
 
 Type  : Slow 1200mV 0C Model Setup 'KEY[0]'
-Slack : -0.139
-TNS   : -0.139
+Slack : -0.122
+TNS   : -0.122
 
-Type  : Slow 1200mV 0C Model Hold 'clock_divider:clock_divide|clock_out[0]'
-Slack : 0.313
+Type  : Slow 1200mV 0C Model Hold 'clock_divider:clock_divide|clock_out'
+Slack : 0.296
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'KEY[0]'
-Slack : 0.442
+Slack : 0.436
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'ADC_CLK_10'
-Slack : 0.591
+Slack : 0.596
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'count[2]'
-Slack : 1.480
+Slack : 1.002
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'count[1]'
-Slack : 2.961
+Slack : 1.939
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'SW[9]'
-Slack : 3.813
+Slack : 3.702
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Recovery 'clock_divider:clock_divide|clock_out[0]'
-Slack : -2.271
-TNS   : -13.845
+Type  : Slow 1200mV 0C Model Recovery 'clock_divider:clock_divide|clock_out'
+Slack : -2.505
+TNS   : -15.284
 
-Type  : Slow 1200mV 0C Model Removal 'clock_divider:clock_divide|clock_out[0]'
-Slack : 1.431
+Type  : Slow 1200mV 0C Model Removal 'clock_divider:clock_divide|clock_out'
+Slack : 1.768
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count[2]'
-Slack : -14.499
-TNS   : -11584.259
+Slack : -13.936
+TNS   : -11751.168
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'count[1]'
-Slack : -13.087
-TNS   : -8692.194
+Slack : -13.277
+TNS   : -9856.385
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SW[9]'
-Slack : -10.556
-TNS   : -5724.937
+Slack : -9.478
+TNS   : -5420.068
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADC_CLK_10'
 Slack : -3.000
@@ -158,40 +158,40 @@ Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
 Slack : -3.000
 TNS   : -5.806
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out[0]'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out'
 Slack : -1.403
 TNS   : -11.224
 
 Type  : Fast 1200mV 0C Model Setup 'count[1]'
-Slack : -18.177
-TNS   : -274.912
+Slack : -17.908
+TNS   : -277.932
 
 Type  : Fast 1200mV 0C Model Setup 'count[2]'
-Slack : -18.107
-TNS   : -300.863
+Slack : -17.708
+TNS   : -305.328
 
 Type  : Fast 1200mV 0C Model Setup 'SW[9]'
-Slack : -17.355
-TNS   : -211.418
+Slack : -17.116
+TNS   : -215.492
 
 Type  : Fast 1200mV 0C Model Setup 'ADC_CLK_10'
-Slack : -1.463
-TNS   : -10.316
+Slack : -1.378
+TNS   : -9.986
 
-Type  : Fast 1200mV 0C Model Setup 'clock_divider:clock_divide|clock_out[0]'
-Slack : -0.861
-TNS   : -4.009
+Type  : Fast 1200mV 0C Model Setup 'clock_divider:clock_divide|clock_out'
+Slack : -0.831
+TNS   : -4.216
 
 Type  : Fast 1200mV 0C Model Setup 'KEY[0]'
-Slack : 0.498
+Slack : 0.508
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'clock_divider:clock_divide|clock_out[0]'
-Slack : 0.152
+Type  : Fast 1200mV 0C Model Hold 'clock_divider:clock_divide|clock_out'
+Slack : 0.145
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'KEY[0]'
-Slack : 0.196
+Slack : 0.191
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'ADC_CLK_10'
@@ -199,46 +199,46 @@ Slack : 0.248
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'count[2]'
-Slack : 1.066
+Slack : 0.965
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'count[1]'
-Slack : 1.947
+Slack : 1.524
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'SW[9]'
-Slack : 2.099
+Slack : 2.210
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Recovery 'clock_divider:clock_divide|clock_out[0]'
-Slack : -1.215
-TNS   : -7.135
+Type  : Fast 1200mV 0C Model Recovery 'clock_divider:clock_divide|clock_out'
+Slack : -1.299
+TNS   : -7.711
 
-Type  : Fast 1200mV 0C Model Removal 'clock_divider:clock_divide|clock_out[0]'
-Slack : 1.052
+Type  : Fast 1200mV 0C Model Removal 'clock_divider:clock_divide|clock_out'
+Slack : 1.237
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count[2]'
-Slack : -6.221
-TNS   : -4476.464
+Slack : -5.918
+TNS   : -4569.707
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'count[1]'
-Slack : -5.576
-TNS   : -3287.350
+Slack : -5.693
+TNS   : -3844.310
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SW[9]'
-Slack : -4.896
-TNS   : -2228.355
+Slack : -4.375
+TNS   : -2135.803
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADC_CLK_10'
 Slack : -3.000
-TNS   : -28.772
+TNS   : -28.765
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
 Slack : -3.000
-TNS   : -5.312
+TNS   : -5.300
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out[0]'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:clock_divide|clock_out'
 Slack : -1.000
 TNS   : -8.000
 

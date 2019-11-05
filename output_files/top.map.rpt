@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Sun Nov 03 19:56:03 2019
+Tue Nov 05 12:49:44 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -17,7 +17,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   9. General Register Statistics
  10. Inverted Register Statistics
  11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for User Entity Instance: clock_divider:clock_divide
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |top
  13. Parameter Settings for Inferred Entity Instance: monthDayCalc:monthDayCalc|lpm_divide:Mod2
  14. Parameter Settings for Inferred Entity Instance: monthDayCalc:monthDayCalc|lpm_divide:Mod0
  15. Parameter Settings for Inferred Entity Instance: monthDayCalc:monthDayCalc|lpm_divide:Mod3
@@ -57,7 +57,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Nov 03 19:56:03 2019       ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 05 12:49:44 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; top                                         ;
 ; Top-level Entity Name              ; top                                         ;
@@ -175,7 +175,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.1%      ;
 ;     Processors 3-12        ;   0.1%      ;
 +----------------------------+-------------+
 
@@ -374,14 +374,14 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
 
 
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: clock_divider:clock_divide ;
-+----------------+---------+----------------------------------------------+
-; Parameter Name ; Value   ; Type                                         ;
-+----------------+---------+----------------------------------------------+
-; clock_divisor1 ; 5000000 ; Signed Integer                               ;
-; clock_divisor2 ; 1000000 ; Signed Integer                               ;
-+----------------+---------+----------------------------------------------+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |top ;
++----------------+---------+------------------------------------------+
+; Parameter Name ; Value   ; Type                                     ;
++----------------+---------+------------------------------------------+
+; clock_divisor1 ; 5000000 ; Signed Integer                           ;
+; clock_divisor2 ; 1000000 ; Signed Integer                           ;
++----------------+---------+------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -592,13 +592,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "clock_divider:clock_divide"                                                                     ;
-+------------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port             ; Type   ; Severity ; Details                                                                             ;
-+------------------+--------+----------+-------------------------------------------------------------------------------------+
-; clock_out[22..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------------------+--------+----------+-------------------------------------------------------------------------------------+
++----------------------------------------------------------+
+; Port Connectivity Checks: "clock_divider:clock_divide"   ;
++------------------------+-------+----------+--------------+
+; Port                   ; Type  ; Severity ; Details      ;
++------------------------+-------+----------+--------------+
+; clock_divisor1[19..18] ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor1[9..8]   ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor1[31..23] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[21..20] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[17..15] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[13..12] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[5..0]   ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[22]     ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor1[14]     ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor1[11]     ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor1[10]     ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[7]      ; Input ; Info     ; Stuck at GND ;
+; clock_divisor1[6]      ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor2[19..16] ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor2[31..20] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor2[13..10] ; Input ; Info     ; Stuck at GND ;
+; clock_divisor2[8..7]   ; Input ; Info     ; Stuck at GND ;
+; clock_divisor2[5..0]   ; Input ; Info     ; Stuck at GND ;
+; clock_divisor2[15]     ; Input ; Info     ; Stuck at GND ;
+; clock_divisor2[14]     ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor2[9]      ; Input ; Info     ; Stuck at VCC ;
+; clock_divisor2[6]      ; Input ; Info     ; Stuck at VCC ;
++------------------------+-------+----------+--------------+
 
 
 +-----------------------------------------------------+
@@ -623,7 +644,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         4 data inputs ; 110                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 20.10                       ;
-; Average LUT depth     ; 13.15                       ;
+; Average LUT depth     ; 13.16                       ;
 +-----------------------+-----------------------------+
 
 
@@ -632,7 +653,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -642,7 +663,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Nov 03 19:55:53 2019
+    Info: Processing started: Tue Nov 05 12:49:35 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Project2 -c top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -655,15 +676,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file dualsev
 Info (12021): Found 1 design units, including 1 entities, in source file clock_divider.v
     Info (12023): Found entity 1: clock_divider File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Warning (10646): Verilog HDL Event Control warning at top.v(43): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 43
 Warning (10230): Verilog HDL assignment warning at top.v(61): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 61
 Warning (10230): Verilog HDL assignment warning at top.v(62): truncated value with size 32 to match size of target (7) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 62
 Warning (10230): Verilog HDL assignment warning at top.v(67): truncated value with size 32 to match size of target (7) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 67
-Warning (10646): Verilog HDL Event Control warning at top.v(72): posedge or negedge of vector "clk_out" depends solely on its least-significant bit File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 72
 Warning (10230): Verilog HDL assignment warning at top.v(79): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 79
 Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:clock_divide" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 36
-Warning (10230): Verilog HDL assignment warning at clock_divider.v(22): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 22
-Warning (10230): Verilog HDL assignment warning at clock_divider.v(32): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 32
+Warning (10230): Verilog HDL assignment warning at clock_divider.v(30): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 30
+Warning (10230): Verilog HDL assignment warning at clock_divider.v(40): truncated value with size 32 to match size of target (24) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/clock_divider.v Line: 40
 Info (12128): Elaborating entity "monthDayCalc" for hierarchy "monthDayCalc:monthDayCalc" File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 90
 Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(71): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 71
 Warning (10230): Verilog HDL assignment warning at monthDayCalc.v(72): truncated value with size 32 to match size of target (4) File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/monthDayCalc.v Line: 72
@@ -869,6 +888,8 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX4[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 13
     Warning (13410): Pin "HEX5[7]" is stuck at VCC File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 14
 Info (286030): Timing-Driven Synthesis is running
+Critical Warning (18061): Ignored Power-Up Level option on the following registers
+    Critical Warning (18010): Register count[0] will power up to High File: C:/Users/peski/OneDrive/Documents/DigitalLogic/Project 2/Project2DigitalLogic/top.v Line: 52
 Warning (20013): Ignored 73 assignments for entity "Complete" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CLK_10 -entity Complete was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[0] -entity Complete was ignored
@@ -954,9 +975,9 @@ Info (21057): Implemented 539 device resources after synthesis - the final resou
     Info (21061): Implemented 484 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 165 warnings
     Info: Peak virtual memory: 4831 megabytes
-    Info: Processing ended: Sun Nov 03 19:56:03 2019
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Processing ended: Tue Nov 05 12:49:44 2019
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:18
 
 
 +------------------------------------------+
