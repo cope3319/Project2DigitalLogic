@@ -1,4 +1,4 @@
-module top(KEY, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, ADC_CLK_10, LEDR, SW);
+module top #(parameter clock_divisor1 = 1, parameter clock_divisor2 = 1_000_000) (KEY, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, ADC_CLK_10, LEDR, SW);
 //clock input
 input ADC_CLK_10;
 
@@ -32,13 +32,13 @@ begin
 end
 
 
-wire [22:0]clk_out;
-clock_divider clock_divide(.clk(ADC_CLK_10),.clock_out(clk_out), .KEY(KEY[1:0]));
+wire clk_out;
+clock_divider clock_divide(.clk(ADC_CLK_10),.clock_out(clk_out), .KEY(KEY[1:0]),.clock_divisor1(clock_divisor1),.clock_divisor2(clock_divisor2));
 
 //Start Clock setup
-reg [6:0]count;
-reg [3:0]mod10_counter1;
-reg [3:0]mod10_counter2;
+reg [6:0]count = 0;
+reg [3:0]mod10_counter1 = 0;
+reg [3:0]mod10_counter2 = 0;
 //Day1
 always @(posedge clk_out or negedge reset_n)
 begin

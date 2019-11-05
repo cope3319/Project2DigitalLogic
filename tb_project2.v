@@ -27,7 +27,7 @@ reg [3:0] digit2digit;
 
 always #1 ADC_CLK_10 = ~ADC_CLK_10;
 
-top DUT(
+top #(1,2) DUT(
   .KEY(KEY),
   .HEX0(HEX0),
   .HEX1(HEX1),
@@ -76,7 +76,7 @@ end
 always @* 
 begin
     casex(HEX1[7:0])
-        8'b11000000 : day1digit = 4'b0000; //0
+        8'b11111111 : day1digit = 4'b0000; //0
         8'b11111001 : day1digit = 4'b0001; //1
         8'b10100100 : day1digit = 4'b0010; //2
         8'b10110000 : day1digit = 4'b0011; //3
@@ -125,7 +125,7 @@ begin
         8'b11111111 : unusedMonthDig = 4'b0000; //0
     endcase
     casex(HEX4[7:0])
-        8'b11000000 : digit1digit = 4'b0000; //0
+        8'b11111111 : digit1digit = 4'b0000; //0
         8'b11111001 : digit1digit = 4'b0001; //1
         8'b10100100 : digit1digit = 4'b0010; //2
         8'b10110000 : digit1digit = 4'b0011; //3
