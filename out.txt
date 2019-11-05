@@ -2,16 +2,10 @@ VCD info: dumpfile out.vcd opened for output.
                    0 << Starting Simulation >>
                    0 SW[9] low: 0, no buttons KEY[1:0]= 11
                    0 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111111, Clk: 0
-                   1 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 1
-                   2 Pressing reset to begin, KEY[0] = 0, HEX3 Cleared: 11111111
+                   1 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 1
                    2 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 0
-                   3 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111001
-                   3 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
-                   3 Converted to digits:  0  1 -  0  1 -  0  1
-                   3 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 1
-                   4 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111001
-                   4 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
-                   4 Converted to digits:  0  1 -  0  1 -  0  1
+                   3 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 1
+                   4 Pressing reset to begin, KEY[0] = 0, HEX3 Cleared: 11111111
                    4 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111, Clk: 0
                    5 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111001
                    5 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -404,5 +398,13 @@ VCD info: dumpfile out.vcd opened for output.
                  102 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 10000010
                  102 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
                  102 Converted to digits:  2  6 -  0  1 -  2  6
-                 102 Ending Simulation, by Connor Peskin
                  102 Buttons(KEY): 11, Day2(HEX0): 10000010, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 10100100, Clk: 0
+                 103 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 10000010
+                 103 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
+                 103 Converted to digits:  2  6 -  0  1 -  2  6
+                 103 Buttons(KEY): 11, Day2(HEX0): 10000010, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 10100100, Clk: 1
+                 104 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 10000010
+                 104 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
+                 104 Converted to digits:  2  6 -  0  1 -  2  6
+                 104 Ending Simulation, by Connor Peskin
+                 104 Buttons(KEY): 11, Day2(HEX0): 10000010, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 10100100, Clk: 0

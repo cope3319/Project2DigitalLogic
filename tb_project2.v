@@ -49,12 +49,12 @@ begin
     SW[9:8] = 2'b00;
     KEY[1:0] = 2'b11;
     $display($time, " SW[9] low: %b, no buttons KEY[1:0]= %b",SW[9],KEY[1:0]);
-    #1
+    #3
     KEY[1:0] = 2'b10;
     #1
     $display($time, " Pressing reset to begin, KEY[0] = %b, HEX3 Cleared: %b",KEY[0],HEX3[7:0]);
     repeat(100) begin
-        if($time<3) KEY[1:0] = 2'b11;
+        if($time<5) KEY[1:0] = 2'b11;
         #1
         $display($time, " Left Digit: HEX5 = %b, Right Digit: HEX4 = %b", HEX5[7:0], HEX4[7:0]);
         $display($time, " Left Day: HEX1 = %b, Right Day: HEX0 = %b, Month: HEX2 = %b",HEX1[7:0],HEX0[7:0],HEX2[7:0]);
