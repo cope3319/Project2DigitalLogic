@@ -75,7 +75,7 @@ begin
         mod10_counter2 <= 0;
     else if(mod10_counter1 == 9)
     begin
-        if (/*mod10_counter2*/count != 100)
+        if (/*mod10_counter2*/count != 99)
             mod10_counter2 <= mod10_counter2 + 1;
         else
         begin
