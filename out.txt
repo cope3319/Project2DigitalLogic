@@ -43,7 +43,7 @@ VCD info: dumpfile out.vcd opened for output.
                 9498 Buttons(KEY): 10, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111001
                10250 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11000000
                10250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-               10250 Converted to digits:  1  9 -  0  1 -  1  0
+               10250 Converted to digits:  1  0 -  0  1 -  1  0
                10498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111001
                11250 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11111001
                11250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -83,7 +83,7 @@ VCD info: dumpfile out.vcd opened for output.
                19498 Buttons(KEY): 10, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10100100
                20250 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 11000000
                20250 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-               20250 Converted to digits:  2  9 -  0  1 -  2  0
+               20250 Converted to digits:  2  0 -  0  1 -  2  0
                20498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10100100
                21250 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 11111001
                21250 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -123,7 +123,7 @@ VCD info: dumpfile out.vcd opened for output.
                29498 Buttons(KEY): 10, Day2(HEX0): 11000000, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10110000
                30250 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 11000000
                30250 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-               30250 Converted to digits:  3  9 -  0  1 -  3  0
+               30250 Converted to digits:  3  0 -  0  1 -  3  0
                30498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10110000
                31250 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 11111001
                31250 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -163,7 +163,7 @@ VCD info: dumpfile out.vcd opened for output.
                39498 Buttons(KEY): 10, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10011001
                40250 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 11000000
                40250 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-               40250 Converted to digits:  4  9 -  0  2 -  0  9
+               40250 Converted to digits:  4  0 -  0  2 -  0  9
                40498 Buttons(KEY): 10, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10011001
                41250 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 11111001
                41250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 10100100
@@ -203,7 +203,7 @@ VCD info: dumpfile out.vcd opened for output.
                49498 Buttons(KEY): 10, Day2(HEX0): 10010000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10010010
                50250 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 11000000
                50250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-               50250 Converted to digits:  5  9 -  0  2 -  1  9
+               50250 Converted to digits:  5  0 -  0  2 -  1  9
                50498 Buttons(KEY): 10, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10010010
                51250 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 11111001
                51250 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 10100100
@@ -243,7 +243,7 @@ VCD info: dumpfile out.vcd opened for output.
                59498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10000010
                60250 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 11000000
                60250 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
-               60250 Converted to digits:  6  9 -  0  3 -  0  1
+               60250 Converted to digits:  6  0 -  0  3 -  0  1
                60498 Buttons(KEY): 10, Day2(HEX0): 10100100, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000010
                61250 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 11111001
                61250 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10100100, Month: HEX2 = 10110000
@@ -283,7 +283,7 @@ VCD info: dumpfile out.vcd opened for output.
                69498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 11111000
                70250 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 11000000
                70250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
-               70250 Converted to digits:  7  9 -  0  3 -  1  1
+               70250 Converted to digits:  7  0 -  0  3 -  1  1
                70498 Buttons(KEY): 10, Day2(HEX0): 10100100, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 11111000
                71250 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 11111001
                71250 Left Day: HEX1 = 11111001, Right Day: HEX0 = 10100100, Month: HEX2 = 10110000
@@ -323,7 +323,7 @@ VCD info: dumpfile out.vcd opened for output.
                79498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10000000
                80250 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 11000000
                80250 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
-               80250 Converted to digits:  8  9 -  0  3 -  2  1
+               80250 Converted to digits:  8  0 -  0  3 -  2  1
                80498 Buttons(KEY): 10, Day2(HEX0): 10100100, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000000
                81250 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 11111001
                81250 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10100100, Month: HEX2 = 10110000
@@ -363,7 +363,7 @@ VCD info: dumpfile out.vcd opened for output.
                89498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10010000
                90250 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 11000000
                90250 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
-               90250 Converted to digits:  9  9 -  0  3 -  3  1
+               90250 Converted to digits:  9  0 -  0  3 -  3  1
                90498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10011001, Digit1(HEX4): 11111001, Digit2(HEX5): 10010000
                91250 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 11111001
                91250 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 10011001
@@ -405,44 +405,44 @@ VCD info: dumpfile out.vcd opened for output.
                99498 Buttons(KEY): 10, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111
                99500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111001
                99500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
-               99500 Converted to digits:  9  1 -  0  1 -  0  1
+               99500 Converted to digits:  0  1 -  0  1 -  0  1
                99500 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111
               100498 Buttons(KEY): 11, Day2(HEX0): 10100100, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10100100, Digit2(HEX5): 11111111
               100500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10100100
               100500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10100100, Month: HEX2 = 11111001
-              100500 Converted to digits:  9  2 -  0  1 -  0  2
+              100500 Converted to digits:  0  2 -  0  1 -  0  2
               101498 Buttons(KEY): 11, Day2(HEX0): 10110000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10110000, Digit2(HEX5): 11111111
               101500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10110000
               101500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10110000, Month: HEX2 = 11111001
-              101500 Converted to digits:  9  3 -  0  1 -  0  3
+              101500 Converted to digits:  0  3 -  0  1 -  0  3
               102498 Buttons(KEY): 11, Day2(HEX0): 10011001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10011001, Digit2(HEX5): 11111111
               102500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10011001
               102500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10011001, Month: HEX2 = 11111001
-              102500 Converted to digits:  9  4 -  0  1 -  0  4
+              102500 Converted to digits:  0  4 -  0  1 -  0  4
               103498 Buttons(KEY): 11, Day2(HEX0): 10010010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010010, Digit2(HEX5): 11111111
               103500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10010010
               103500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010010, Month: HEX2 = 11111001
-              103500 Converted to digits:  9  5 -  0  1 -  0  5
+              103500 Converted to digits:  0  5 -  0  1 -  0  5
               104498 Buttons(KEY): 11, Day2(HEX0): 10000010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 11111111
               104500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10000010
               104500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
-              104500 Converted to digits:  9  6 -  0  1 -  0  6
+              104500 Converted to digits:  0  6 -  0  1 -  0  6
               105498 Buttons(KEY): 11, Day2(HEX0): 11111000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111000, Digit2(HEX5): 11111111
               105500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111000
               105500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111000, Month: HEX2 = 11111001
-              105500 Converted to digits:  9  7 -  0  1 -  0  7
+              105500 Converted to digits:  0  7 -  0  1 -  0  7
               106498 Buttons(KEY): 11, Day2(HEX0): 10000000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000000, Digit2(HEX5): 11111111
               106500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10000000
               106500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10000000, Month: HEX2 = 11111001
-              106500 Converted to digits:  9  8 -  0  1 -  0  8
+              106500 Converted to digits:  0  8 -  0  1 -  0  8
               107498 Buttons(KEY): 11, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010000, Digit2(HEX5): 11111111
               107500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10010000
               107500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010000, Month: HEX2 = 11111001
-              107500 Converted to digits:  9  9 -  0  1 -  0  9
+              107500 Converted to digits:  0  9 -  0  1 -  0  9
               108498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111001
               108500 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11000000
               108500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              108500 Converted to digits:  1  9 -  0  1 -  1  0
+              108500 Converted to digits:  1  0 -  0  1 -  1  0
               109498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111001
               109500 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11111001
               109500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -482,7 +482,7 @@ VCD info: dumpfile out.vcd opened for output.
               118498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10100100
               118500 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 11000000
               118500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              118500 Converted to digits:  2  9 -  0  1 -  2  0
+              118500 Converted to digits:  2  0 -  0  1 -  2  0
               119498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10100100
               119500 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 11111001
               119500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -522,7 +522,7 @@ VCD info: dumpfile out.vcd opened for output.
               128498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10110000
               128500 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 11000000
               128500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              128500 Converted to digits:  3  9 -  0  1 -  3  0
+              128500 Converted to digits:  3  0 -  0  1 -  3  0
               129498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10110000
               129500 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 11111001
               129500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
@@ -562,7 +562,7 @@ VCD info: dumpfile out.vcd opened for output.
               138498 Buttons(KEY): 11, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10011001
               138500 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 11000000
               138500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              138500 Converted to digits:  4  9 -  0  2 -  0  9
+              138500 Converted to digits:  4  0 -  0  2 -  0  9
               139498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10011001
               139500 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 11111001
               139500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 10100100
@@ -602,7 +602,7 @@ VCD info: dumpfile out.vcd opened for output.
               148498 Buttons(KEY): 11, Day2(HEX0): 10010000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10010010
               148500 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 11000000
               148500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              148500 Converted to digits:  5  9 -  0  2 -  1  9
+              148500 Converted to digits:  5  0 -  0  2 -  1  9
               149498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10010010
               149500 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 11111001
               149500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 10100100
@@ -642,7 +642,7 @@ VCD info: dumpfile out.vcd opened for output.
               158498 Buttons(KEY): 11, Day2(HEX0): 10010000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10000010
               158500 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 11000000
               158500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              158500 Converted to digits:  6  9 -  0  2 -  2  9
+              158500 Converted to digits:  6  0 -  0  2 -  2  9
               159498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000010
               159500 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 11111001
               159500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
@@ -682,7 +682,7 @@ VCD info: dumpfile out.vcd opened for output.
               168498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 11111000
               168500 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 11000000
               168500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              168500 Converted to digits:  7  9 -  0  3 -  1  0
+              168500 Converted to digits:  7  0 -  0  3 -  1  0
               169498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 11111000
               169500 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 11111001
               169500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
@@ -722,7 +722,7 @@ VCD info: dumpfile out.vcd opened for output.
               178498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10000000
               178500 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 11000000
               178500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              178500 Converted to digits:  8  9 -  0  3 -  2  0
+              178500 Converted to digits:  8  0 -  0  3 -  2  0
               179498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000000
               179500 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 11111001
               179500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
@@ -762,7 +762,7 @@ VCD info: dumpfile out.vcd opened for output.
               188498 Buttons(KEY): 11, Day2(HEX0): 11000000, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10010000
               188500 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 11000000
               188500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              188500 Converted to digits:  9  9 -  0  3 -  3  0
+              188500 Converted to digits:  9  0 -  0  3 -  3  0
               189498 Buttons(KEY): 11, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10010000
               189500 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 11111001
               189500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11111001, Month: HEX2 = 10110000
@@ -810,14 +810,14 @@ VCD info: dumpfile out.vcd opened for output.
               198898 Buttons(KEY): 00, Day2(HEX0): 10000010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 11111111
               199000 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10000010
               199000 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
-              199000 Converted to digits:  9  6 -  0  1 -  0  6
+              199000 Converted to digits:  0  6 -  0  1 -  0  6
               199000 Buttons(KEY): 01, Day2(HEX0): 10000010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 11111111
               199098 Buttons(KEY): 01, Day2(HEX0): 11111000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111000, Digit2(HEX5): 11111111
               199298 Buttons(KEY): 01, Day2(HEX0): 10000000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000000, Digit2(HEX5): 11111111
               199498 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010000, Digit2(HEX5): 11111111
               199500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10010000
               199500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010000, Month: HEX2 = 11111001
-              199500 Converted to digits:  9  9 -  0  1 -  0  9
+              199500 Converted to digits:  0  9 -  0  1 -  0  9
               199698 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111001
               199898 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111001
               200000 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11111001
@@ -1020,24 +1020,24 @@ VCD info: dumpfile out.vcd opened for output.
               217898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10100100, Digit2(HEX5): 11111111
               218000 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10100100
               218000 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10100100, Month: HEX2 = 11111001
-              218000 Converted to digits:  9  2 -  0  1 -  0  2
+              218000 Converted to digits:  0  2 -  0  1 -  0  2
               218098 Buttons(KEY): 01, Day2(HEX0): 10110000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10110000, Digit2(HEX5): 11111111
               218298 Buttons(KEY): 01, Day2(HEX0): 10011001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10011001, Digit2(HEX5): 11111111
               218498 Buttons(KEY): 01, Day2(HEX0): 10010010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010010, Digit2(HEX5): 11111111
               218500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10010010
               218500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010010, Month: HEX2 = 11111001
-              218500 Converted to digits:  9  5 -  0  1 -  0  5
+              218500 Converted to digits:  0  5 -  0  1 -  0  5
               218698 Buttons(KEY): 01, Day2(HEX0): 10000010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 11111111
               218898 Buttons(KEY): 01, Day2(HEX0): 11111000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111000, Digit2(HEX5): 11111111
               219000 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111000
               219000 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111000, Month: HEX2 = 11111001
-              219000 Converted to digits:  9  7 -  0  1 -  0  7
+              219000 Converted to digits:  0  7 -  0  1 -  0  7
               219098 Buttons(KEY): 01, Day2(HEX0): 10000000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000000, Digit2(HEX5): 11111111
               219298 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010000, Digit2(HEX5): 11111111
               219498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111001
               219500 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 11000000
               219500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              219500 Converted to digits:  1  9 -  0  1 -  1  0
+              219500 Converted to digits:  1  0 -  0  1 -  1  0
               219698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111001
               219898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10100100, Digit2(HEX5): 11111001
               220000 Left Digit: HEX5 = 11111001, Right Digit: HEX4 = 10100100
@@ -1059,7 +1059,7 @@ VCD info: dumpfile out.vcd opened for output.
               221498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10100100
               221500 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 11000000
               221500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              221500 Converted to digits:  2  9 -  0  1 -  2  0
+              221500 Converted to digits:  2  0 -  0  1 -  2  0
               221698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10100100
               221898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10100100, Digit2(HEX5): 10100100
               222000 Left Digit: HEX5 = 10100100, Right Digit: HEX4 = 10100100
@@ -1081,7 +1081,7 @@ VCD info: dumpfile out.vcd opened for output.
               223498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 10110000
               223500 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 11000000
               223500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11000000, Month: HEX2 = 11111001
-              223500 Converted to digits:  3  9 -  0  1 -  3  0
+              223500 Converted to digits:  3  0 -  0  1 -  3  0
               223698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 10110000
               223898 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 10100100, Digit2(HEX5): 10110000
               224000 Left Digit: HEX5 = 10110000, Right Digit: HEX4 = 10100100
@@ -1103,7 +1103,7 @@ VCD info: dumpfile out.vcd opened for output.
               225498 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10011001
               225500 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 11000000
               225500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              225500 Converted to digits:  4  9 -  0  2 -  0  9
+              225500 Converted to digits:  4  0 -  0  2 -  0  9
               225698 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10011001
               225898 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 10100100, Digit2(HEX5): 10011001
               226000 Left Digit: HEX5 = 10011001, Right Digit: HEX4 = 10100100
@@ -1125,7 +1125,7 @@ VCD info: dumpfile out.vcd opened for output.
               227498 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10010010
               227500 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 11000000
               227500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              227500 Converted to digits:  5  9 -  0  2 -  1  9
+              227500 Converted to digits:  5  0 -  0  2 -  1  9
               227698 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11111001, Digit2(HEX5): 10010010
               227898 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 10100100, Digit2(HEX5): 10010010
               228000 Left Digit: HEX5 = 10010010, Right Digit: HEX4 = 10100100
@@ -1147,7 +1147,7 @@ VCD info: dumpfile out.vcd opened for output.
               229498 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10100100, Digit1(HEX4): 11000000, Digit2(HEX5): 10000010
               229500 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 11000000
               229500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 10010000, Month: HEX2 = 10100100
-              229500 Converted to digits:  6  9 -  0  2 -  2  9
+              229500 Converted to digits:  6  0 -  0  2 -  2  9
               229698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000010
               229898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 10100100, Digit2(HEX5): 10000010
               230000 Left Digit: HEX5 = 10000010, Right Digit: HEX4 = 10100100
@@ -1169,7 +1169,7 @@ VCD info: dumpfile out.vcd opened for output.
               231498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 11111000
               231500 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 11000000
               231500 Left Day: HEX1 = 11111001, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              231500 Converted to digits:  7  9 -  0  3 -  1  0
+              231500 Converted to digits:  7  0 -  0  3 -  1  0
               231698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 11111000
               231898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 10100100, Digit2(HEX5): 11111000
               232000 Left Digit: HEX5 = 11111000, Right Digit: HEX4 = 10100100
@@ -1191,7 +1191,7 @@ VCD info: dumpfile out.vcd opened for output.
               233498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10000000
               233500 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 11000000
               233500 Left Day: HEX1 = 10100100, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              233500 Converted to digits:  8  9 -  0  3 -  2  0
+              233500 Converted to digits:  8  0 -  0  3 -  2  0
               233698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10000000
               233898 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 10100100, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 10100100, Digit2(HEX5): 10000000
               234000 Left Digit: HEX5 = 10000000, Right Digit: HEX4 = 10100100
@@ -1213,7 +1213,7 @@ VCD info: dumpfile out.vcd opened for output.
               235498 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11000000, Digit2(HEX5): 10010000
               235500 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 11000000
               235500 Left Day: HEX1 = 10110000, Right Day: HEX0 = 11000000, Month: HEX2 = 10110000
-              235500 Converted to digits:  9  9 -  0  3 -  3  0
+              235500 Converted to digits:  9  0 -  0  3 -  3  0
               235698 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 10110000, UnusedMonth(HEX3): 11111111, Month(HEX2): 10110000, Digit1(HEX4): 11111001, Digit2(HEX5): 10010000
               235898 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 10011001, Digit1(HEX4): 10100100, Digit2(HEX5): 10010000
               236000 Left Digit: HEX5 = 10010000, Right Digit: HEX4 = 10100100
@@ -1235,23 +1235,23 @@ VCD info: dumpfile out.vcd opened for output.
               237498 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111111
               237500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 11111001
               237500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 11111001, Month: HEX2 = 11111001
-              237500 Converted to digits:  9  1 -  0  1 -  0  1
+              237500 Converted to digits:  0  1 -  0  1 -  0  1
               237698 Buttons(KEY): 01, Day2(HEX0): 10100100, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10100100, Digit2(HEX5): 11111111
               237898 Buttons(KEY): 01, Day2(HEX0): 10110000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10110000, Digit2(HEX5): 11111111
               238000 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10110000
               238000 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10110000, Month: HEX2 = 11111001
-              238000 Converted to digits:  9  3 -  0  1 -  0  3
+              238000 Converted to digits:  0  3 -  0  1 -  0  3
               238098 Buttons(KEY): 01, Day2(HEX0): 10011001, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10011001, Digit2(HEX5): 11111111
               238298 Buttons(KEY): 01, Day2(HEX0): 10010010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010010, Digit2(HEX5): 11111111
               238498 Buttons(KEY): 01, Day2(HEX0): 10000010, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000010, Digit2(HEX5): 11111111
               238500 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10000010
               238500 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10000010, Month: HEX2 = 11111001
-              238500 Converted to digits:  9  6 -  0  1 -  0  6
+              238500 Converted to digits:  0  6 -  0  1 -  0  6
               238698 Buttons(KEY): 01, Day2(HEX0): 11111000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111000, Digit2(HEX5): 11111111
               238898 Buttons(KEY): 01, Day2(HEX0): 10000000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10000000, Digit2(HEX5): 11111111
               239000 Left Digit: HEX5 = 11111111, Right Digit: HEX4 = 10000000
               239000 Left Day: HEX1 = 11111111, Right Day: HEX0 = 10000000, Month: HEX2 = 11111001
-              239000 Converted to digits:  9  8 -  0  1 -  0  8
+              239000 Converted to digits:  0  8 -  0  1 -  0  8
               239098 Buttons(KEY): 01, Day2(HEX0): 10010000, Day1(HEX1): 11111111, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 10010000, Digit2(HEX5): 11111111
               239298 Buttons(KEY): 01, Day2(HEX0): 11000000, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11000000, Digit2(HEX5): 11111001
               239498 Buttons(KEY): 01, Day2(HEX0): 11111001, Day1(HEX1): 11111001, UnusedMonth(HEX3): 11111111, Month(HEX2): 11111001, Digit1(HEX4): 11111001, Digit2(HEX5): 11111001

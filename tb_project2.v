@@ -164,7 +164,7 @@ begin
         8'b11111111 : unusedMonthDig = 4'b0000; //0
     endcase
     casex(HEX4[7:0])
-        8'b11111111 : digit1digit = 4'b0000; //0
+        8'b11000000 : digit1digit = 4'b0000; //0
         8'b11111001 : digit1digit = 4'b0001; //1
         8'b10100100 : digit1digit = 4'b0010; //2
         8'b10110000 : digit1digit = 4'b0011; //3
@@ -176,7 +176,7 @@ begin
         8'b10010000 : digit1digit = 4'b1001; //9
     endcase
     casex(HEX5[7:0])
-        8'b11000000 : digit2digit = 4'b0000; //0
+        8'b11111111 : digit2digit = 4'b0000; //0
         8'b11111001 : digit2digit = 4'b0001; //1
         8'b10100100 : digit2digit = 4'b0010; //2
         8'b10110000 : digit2digit = 4'b0011; //3
